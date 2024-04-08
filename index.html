@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIA - Sistema de Informações Acadêmicas</title>
+    <link rel="icon" type="image/png" href="icone.png">
+    <link rel="stylesheet" href="index.css">  
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="script.js"defer></script>
+</head>
+<body>
+    <div>
+        <p class="txtimg">Ensino <b>Estacio</b> <br>
+        Brilhe com <b>+ tecnologia</b></p>
+        <img src="banner_01.png" alt="bannerInicial" class="imagem">
+    </div>
+    
+    <div class="inicio">
+        <form action="">
+            <div class="logo">
+                <img src="logo.png" alt="" class="logoimg">
+                <h4>SIA - Sistema de Informações<br> Acadêmica</h4>
+                    <small><div id="dataExibida"></div></small><br><br>
+                    <a href="#" class="btnLink">
+                        <button type="submit" class="btnEmail">
+                          <img src="outlook.png" alt="outlook" class="outlook"> <h3>Entrar com e-mail de estudante</h3>
+                        </button>
+                      </a><br>
+                      
+                    ——————— ou ———————<br><br>
+                            
+            </div>
+            <h5 class="h5">Matrícula</h5>
+            <div class="input-box">
+                <i class='bx bxs-user-detail'></i>
+                <input type="text" placeholder="Digite sua matricula" required=""  id="campoInteiro" oninput="validarInteiro(this)">
+                <br> <a href="#"><small class="matricula">Nao sei ou esqueci a matricula</small></a>
+                
+                    </div>
+                <div class="input-box">
+                    <div class="senha">Senha</div>
+                    <i class='bx bxs-low-vision' ></i>
+
+                    <input type="password" placeholder="senha" required>
+                    <br><a href="#"><small class="esqueciSenha">Esqueci minha senha/Cadastrar primeira<br> <div class="se">senha</div></small></a>
+                </div>
+
+                <button type="submit" class="btnEntrar">Entrar</button>
+                <div class="duvidas">
+                <small> com dúvidas para fazer o login?</small><br>
+                        <a href="#"><img src="int.png" alt="" class="int">Acessar Ajuda</a>
+                        
+                </div> 
+                <div class="span">
+                    <br>
+                    <span style="font-weight:bold; font-size:14px;"><strong><h4>Alunos IDOMED, seu SIA mudou!</h4></strong></span>
+                    <h6>Acesse <a id="btnLinkIdomed" href="https://sia.idomed.com.br"> sia.idomed.com.br </a>
+                    &nbsp;e salve<br>
+                    em seus favoritos.</h6><br>
+                </div>
+    
+                
+        </form> 
+    </div>
+    <div>
+        
+    
+</body>
+</html>
